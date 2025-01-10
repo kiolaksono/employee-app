@@ -5,7 +5,7 @@ import { baseURL } from "../helpers/http-client";
 export default function Family({data, handles, input}){
 
     const navigate = useNavigate()
-    const {family, setFamily} = data
+    const {family, setFamily} = daqta
 
     const handleDelete = async (id)=>{
         try {
